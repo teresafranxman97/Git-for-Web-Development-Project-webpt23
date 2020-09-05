@@ -23,11 +23,11 @@ MVP QUESTIONS
 
     7. What is an id?
 
-    A: An identifier 
+    A: A unique identifier 
 
     8. What elements can I add an id to?
 
-    <div>, <section>
+    <div>, <section>, <p>, heading elements
 
     9. How many times can I use the same id on a page? 
 
@@ -35,11 +35,11 @@ MVP QUESTIONS
 
     10. What is a class? 
 
-    A: Another way you can specifiy a specific identifier 
+    A: A way to specify a piece of information by giving it a class name 
 
     11. What elements can I add a class to? 
     
-    A: divs, sections, imgs, footer
+    A: divs, sections, imgs, footer, headings, p, navs
 
     12. How many times can I use the same class on a page? 
 
@@ -47,41 +47,128 @@ MVP QUESTIONS
 
     13. How do I get my link to open in a new tab?
 
-    A: 
+    A: by using the anchor tag <a href="">link here</a>
 
     14. What is the alt attribute in the image tag used for? 
+
+   A: To give the source a name 
+
     15. How do I reference an id?
+
+   A: by using "#"
+
     16. What is the difference between a section and a div
+
+   A: Sections are used to separate information that typically includes headings and divs are used to divide information 
+
     17. What is CSS used for? 
+
+   A: CSS is used to add style to your webpage 
+
     18. How to we select an element? Example - every h2 on the page
+
+   A: h2 {your style here}
+
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
+
+   A: A class can be used anytime whereas an ID can only be used once! You might use a class when creating a nav bar within a div so <div class="container">. You might want to use an ID when indicating a very unique piece of informtion maybe when you want to make a piece of code stand out from the rest like <header id="lambda">LAMBDA SCHOOL IS AWESOME</header> 
+
     20. How do we select classes in CSS?
+
+   A: .className {}
+
     21. How do we select a p element with a single class of “human””?
+
+   A: p.human {}
+
     22. What is a parent child selector? When would this be useful? 
+
+   A: A way that allows us to select a "parent" element and all of the elemnts underneath it otherwise known as the "child elemnts". This is helpful when you want to target a specific element and its child elements and not every thing else 
+
     23. How do you select all links within a div with the class of sidebar?
+
+   A: .sidebar > a {}
+
     24. What is a pseudo selector?
-    25. What do we use the change the spacing between lines?
+
+   A: Another way to add a special state to an element like hover or to make a link active 
+
+    25. What do we use the change the spacing between lines? 
+
+   A: line-height 
+
     26. What do we use to change the spacing between letters?
+
+   A: letter-spacing
+
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+
+   A: elementName {
+      text-transform: lowercase;
+   }
+   or 
+
+   elementName {
+      text-transform: uppercase;
+   }
+
     28. How do I add a 1px border around my div that is dotted and black?
+
+   A: div {
+      border: 1px dotted black;
+   }
+
     29. How do I select everything on the page? 
+
+   A: *{}
+
     30. How do I write a comment in CSS?
+
+   A: by using /* */
+
     31. How do I find out what file I am in, when I am using the command line? 
 
     A: pwd
 
     32. Using the command line - how do I see a list of files/folders in my current folder?
+
+   A: "ls"
+
     33. How do I remove a file via the command line? Why do I have to be careful with this? 
+
+   A: using rm, you need to be careful because you could mistakenly delete the directory
+
     34. Why should I use version control? 
-    35. How often should I commit to github?
+
+   A: Because it is good practice 
+
+    35. How often should I commit to github? 
+
+   A: Every time you make changes to your repo
+
     36. What is the command we would use to push our repo up to github? 
+
+   A: git push origin -u firstName-lastName
+
     37. Walk me through Lambda's git flow. 
+
+   1:) Fork
+   2:) Pull
+   3:) Clone
+   4:) Branch
+   5:) add
+   6:) commit
+   7:) push
+   8:) Merge 
 
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
     2. What happens when an element is positioned absolutely? 
-    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width?  
+
+   A: use max-width 
+
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
 
