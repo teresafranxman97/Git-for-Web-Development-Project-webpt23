@@ -189,6 +189,6 @@ A: An inline element occupys the space given within the opening and closing tags
 
 5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
 
-   A: In css the box model 
+  
 
    --> 
